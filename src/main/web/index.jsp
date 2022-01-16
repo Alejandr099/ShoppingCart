@@ -25,7 +25,6 @@
                 var sum = 0;
                 for (var i = 0; i < data.length; i++) {
                     sum += parseInt(data[i].quantity) * parseFloat(data[i].product.price);
-                    s += '<br><img src="${pageContext.servletContext.contextPath }/resources/http://learningprogramming.net/wp-content/uploads/java/spring_mvc/" width="50" height="50">';
                     s += '<br>Id: ' + data[i].product.id;
                     s += '<br>Name: ' + data[i].product.name;
                     s += '<br>Quantity: ' + data[i].quantity;
